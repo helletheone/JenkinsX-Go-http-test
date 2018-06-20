@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 10.107.215.66:5000/helletheone/jenkinsx-go-http-test
+  tag: 0.0.1
   pullPolicy: IfNotPresent
 service:
   name: jenkinsx-go-http-test
